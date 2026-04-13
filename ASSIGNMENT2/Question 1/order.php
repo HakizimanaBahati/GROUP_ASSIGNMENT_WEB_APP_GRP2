@@ -30,12 +30,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Palm Hotel | Order</title>
+    <title>BIT Hotel | Order</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="site-wrapper">
-        <div class="topbar">Golden Palm Hotel | Order Your Food Online</div>
+        <div class="topbar">BIT Hotel | Order Your Food Online</div>
 
         <div class="navbar">
             <a href="index.php">Home</a>

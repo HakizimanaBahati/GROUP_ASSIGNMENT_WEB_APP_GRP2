@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Palm Hotel | Menu</title>
+    <title>BIT Hotel | Menu</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="site-wrapper">
-        <div class="topbar">Golden Palm Hotel | Today’s Menu</div>
+        <div class="topbar">BIT Hotel | Today's Menu</div>
 
         <div class="navbar">
             <a href="index.php">Home</a>

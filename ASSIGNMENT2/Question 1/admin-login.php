@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login | Golden Palm Hotel</title>
+    <title>Admin Login | BIT Hotel</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         .login-container {
@@ -138,7 +138,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="login-card">
             <div class="lock-icon">🔐</div>
             <h1>Admin Login</h1>
-            <p class="subtitle">Golden Palm Hotel Management System</p>
+            <p class="subtitle">BIT Hotel Management System</p>
 
             <?php if ($error): ?>
                 <div class="error-message"><?php echo htmlspecialchars($error); ?></div>

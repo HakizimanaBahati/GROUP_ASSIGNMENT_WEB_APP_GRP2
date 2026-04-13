@@ -52,7 +52,7 @@ $completedOrders = count(array_filter($orders, fn($o) => $o['status'] === 'deliv
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard | Golden Palm Hotel</title>
+    <title>Admin Dashboard | BIT Hotel</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         .admin-wrapper {
@@ -398,7 +398,7 @@ $completedOrders = count(array_filter($orders, fn($o) => $o['status'] === 'deliv
     <div class="admin-wrapper">
         <aside class="admin-sidebar">
             <h2>Dashboard</h2>
-            <p class="hotel-name">Golden Palm Hotel</p>
+            <p class="hotel-name">BIT Hotel</p>
 
             <ul class="admin-nav">
                 <li>

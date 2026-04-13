@@ -1,7 +1,7 @@
--- Create database and tables for Golden Palm Hotel
+-- Create database and tables for BIT Hotel
 
-CREATE DATABASE IF NOT EXISTS golden_palm_hotel;
-USE golden_palm_hotel;
+CREATE DATABASE IF NOT EXISTS bit_hotel;
+USE bit_hotel;
 
 -- Orders table
 CREATE TABLE IF NOT EXISTS orders (
@@ -28,4 +28,4 @@ CREATE TABLE IF NOT EXISTS admin_users (
 
 -- Insert default admin user (password: admin123)
 INSERT IGNORE INTO admin_users (username, password, email) 
-VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin@goldenpalmhotel.com');
+VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin@bit-hotel.com');

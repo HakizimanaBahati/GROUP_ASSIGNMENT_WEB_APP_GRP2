@@ -1,21 +1,22 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f7f1e8;
+    font-family: 'Times New Roman', Times, serif;
+    background: #E8F4FC;
 }
 
 .header {
     text-align: center;
-    background: linear-gradient(135deg, #5c2e1f, #8b4513);
+    background: linear-gradient(135deg, #4A90D9, #2E6DB3);
     color: white;
     padding: 40px 20px;
-    box-shadow: 0 8px 20px rgba(92, 46, 31, 0.2);
+    box-shadow: 0 8px 20px rgba(74, 144, 217, 0.25);
 }
 
 .header h1 {
     margin: 0;
     font-size: 42px;
     letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -25,17 +26,19 @@ body {
     margin: 30px auto;
     padding: 35px 20px;
     border-radius: 15px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px rgba(74, 144, 217, 0.12);
+    border: 1px solid rgba(184, 212, 232, 0.5);
 }
 
 .container h2 {
     margin-bottom: 10px;
-    color: #8b4513;
+    color: #2E6DB3;
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container p {
     margin: 0;
     font-size: 18px;
-    color: #444;
+    color: #4A6A8A;
 }

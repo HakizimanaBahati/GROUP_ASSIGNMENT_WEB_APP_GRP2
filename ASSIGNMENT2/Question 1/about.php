@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Palm Hotel | About Us</title>
+    <title>BIT Hotel | About Us</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="site-wrapper">
-        <div class="topbar">Golden Palm Hotel | Learn More About Our Story</div>
+        <div class="topbar">BIT Hotel | Learn More About Our Story</div>
 
         <div class="navbar">
             <a href="index.php">Home</a>
@@ -21,7 +21,7 @@
 
         <div class="section">
             <div class="section-title">
-                <h2>About Golden Palm Hotel</h2>
+                <h2>About BIT Hotel</h2>
                 <p>We are a modern hotel and restaurant created to provide quality meals, friendly service, and a welcoming place for every guest.</p>
             </div>
 
@@ -45,7 +45,7 @@
         </div>
 
         <div class="footer">
-            <p>Golden Palm Hotel, Kigali | Hospitality with style and flavor</p>
+            <p>BIT Hotel, Kigali | Hospitality with style and flavor</p>
         </div>
     </div>
 </body>

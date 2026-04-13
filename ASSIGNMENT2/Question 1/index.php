@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hotel Home</title>
+    <title>BIT HOTEL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="header">
-    <h1>Welcome to Our Hotel</h1>
+    <h1>Welcome to BIT Hotel</h1>
 </div>
 
 <div class="navbar">
@@ -31,12 +31,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Palm Hotel | Home</title>
+    <title>BIT HOTEL | Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="site-wrapper">
-        <div class="topbar">Golden Palm Hotel | Fresh Meals, Elegant Rooms and Fast Delivery</div>
+        <div class="topbar">BIT Hotel | Fresh Meals, Elegant Rooms and Fast Delivery</div>
 
         <div class="navbar">
             <a class="active" href="index.php">Home</a>
@@ -50,7 +50,7 @@
 
         <div class="hero">
             <div class="hero-content">
-                <h1 class="hero-title">Welcome to Golden Palm Hotel</h1>
+                <h1 class="hero-title">Welcome to BIT Hotel</h1>
                 <p class="hero-subtitle">Enjoy a warm hotel experience with delicious meals, refreshing drinks, and a relaxing atmosphere made for family, friends, and business guests.</p>
                 <a class="button pulse-button" href="order.php">Order Food Now</a>
             </div>
@@ -59,7 +59,7 @@
         <div class="section">
             <div class="section-title">
                 <h2>Our Special Experience</h2>
-                <p>Golden Palm Hotel combines hospitality, tasty dishes, and a stylish environment so every guest can feel comfortable from the first step to the last meal.</p>
+                <p>BIT HOTEL combines hospitality, tasty dishes, and a stylish environment so every guest can feel comfortable from the first step to the last meal.</p>
             </div>
 
             <div class="feature-grid">
@@ -92,7 +92,7 @@
         </div>
 
         <div class="footer">
-            <p>Golden Palm Hotel, Kigali | Phone: +250 788 123 456 | Email: info@goldenpalmhotel.com</p>
+            <p>BIT HOTEL, HUYE | Phone: +250 73401856 | Email: info@bithotel.com</p>
             <p style="margin-top: 10px; font-size: 12px; opacity: 0.7;"><a href="admin-login.php" style="color: #d88a39;">Admin Panel</a></p>
         </div>
     </div>
