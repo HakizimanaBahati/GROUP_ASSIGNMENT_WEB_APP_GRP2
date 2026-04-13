@@ -11,14 +11,14 @@ body {
     margin: 0;
 }
 
-/* MAIN CONTAINER */
+
 .container {
     width: 90%;
     margin: auto;
     background: white;
 }
 
-/* HEADER */
+
 .header {
     padding: 10px;
 }
@@ -71,27 +71,26 @@ body {
     background: #8b0000;
 }
 
-/* CONTENT */
 .content {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
-/* CARD */
+
 .card {
     width: 30%;
     background: #f9f9f9;
     border: 1px solid #ccc;
 }
 
-/* IMAGE */
+
 .card img {
     width: 100%;
     height: 200px;
 }
 
-/* TITLE */
+
 .card-title {
     background: #2f4f4f;
     color: orange;
@@ -99,7 +98,7 @@ body {
     font-weight: bold;
 }
 
-/* TEXT */
+
 .card-text {
     padding: 10px;
     font-size: 14px;
@@ -111,7 +110,7 @@ body {
 
 <div class="container">
 
-    <!-- HEADER -->
+
     <div class="header">
         <div class="header-top">
             <img src="image/img4.png" alt="Left header image">
@@ -140,7 +139,7 @@ body {
 
         <!-- CARD 1 -->
         <div class="card">
-            <img src="image/img1.jpg" alt="News image 1">
+            <img src="image/img7.png" alt="News image 1">
             <div class="card-title">Player of the Week on 23</div>
             <div class="card-text">
                 Note that it's important to have both opening and closing curly braces 
@@ -151,7 +150,7 @@ body {
 
         <!-- CARD 2 -->
         <div class="card">
-            <img src="image/img2.jpg" alt="News image 2">
+            <img src="image/img7.png" alt="News image 2">
             <div class="card-title">Player of the Week on 23</div>
             <div class="card-text">
                 Note that it's important to have both opening and closing curly braces 
@@ -162,7 +161,7 @@ body {
 
         <!-- CARD 3 -->
         <div class="card">
-            <img src="image/img3.jpg" alt="News image 3">
+            <img src="image/img7.png" alt="News image 3">
             <div class="card-title">Player of the Week on 23</div>
             <div class="card-text">
                 Note that it's important to have both opening and closing curly braces 
