@@ -25,7 +25,10 @@
 
         $first = $conn->real_escape_string($_POST['first_name']);
         $last = $conn->real_escape_string($_POST['last_name']);
-        $dob = $conn->real_escape_string($_POST['dob']);
+        $day = isset($_POST['day']) ? $conn->real_escape_string($_POST['day']) : '';
+        $month = isset($_POST['month']) ? $conn->real_escape_string($_POST['month']) : '';
+        $year = isset($_POST['year']) ? $conn->real_escape_string($_POST['year']) : '';
+        $dob = $year . '-' . $month . '-' . $day;
         $email = $conn->real_escape_string($_POST['email']);
         $mobile = $conn->real_escape_string($_POST['mobile']);
         $gender = $conn->real_escape_string($_POST['gender']);
@@ -38,8 +41,15 @@
 
         $hobbies = "";
         if (!empty($_POST['hobbies'])) {
-            $hobbies = $conn->real_escape_string(implode(",", $_POST['hobbies']));
+            $hobbies = implode(",", $_POST['hobbies']);
         }
+        if (!empty($_POST['other_hobby'])) {
+            $other = trim($_POST['other_hobby']);
+            if (!empty($other)) {
+                $hobbies = empty($hobbies) ? $other : $hobbies . "," . $other;
+            }
+        }
+        $hobbies = $conn->real_escape_string($hobbies);
 
         $sql = "INSERT INTO students 
                 (first_name, last_name, dob, email, mobile, gender, address, city, pin_code, state, country, hobbies, course)
